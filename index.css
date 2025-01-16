@@ -1,0 +1,131 @@
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+      }
+header img{
+      width:100%;
+heigth:auto;
+}
+header img  {
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+  .search-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .search-container input[type="text"] {
+    padding: 6px;
+    border: none;
+    font-size: 16px;
+    flex: 1;
+  }
+
+  .search-container button {
+    padding: 6px 12px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-container button:hover {
+    background: #ccc;
+  }
+
+ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+
+        li {
+            display: inline-block;
+            position: relative;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+
+        a:hover {
+            background-color: #575757;
+        }
+
+        /* Dropdown container - hidden by default */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+           
+            z-index: 1;
+            background:#333;
+            
+        }
+
+        .dropdown-content a {
+            padding: 12px 16px;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+
+        /* Show the dropdown menu when hovering over the dropdown button */
+        li:hover .dropdown-content {
+            display: block;
+        }
+
+        footer {
+            background: linear-gradient(45deg, #31B7C2 10%, #7BC393 80%);
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            color: #C80815;
+        }
+
+        .image img {
+            width: 40px;
+            margin: 5px;
+        }
+
+        /* Responsive Images and Videos */
+        .slider, .vdo {
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        .slides {
+            width: 100%;
+            height: auto;
+        }
+
+        .vdo video{
+            border:5px solid #fff;
+            width: 100%;
+            height: auto;
+        }
+
+        @keyframes fade {
+            from { opacity: .4; }
+            to { opacity: 1; }
+        }
+
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
